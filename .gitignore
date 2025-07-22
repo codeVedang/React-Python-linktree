@@ -1,0 +1,102 @@
+# ===================================================================
+# General .gitignore
+#
+# A comprehensive template. Review and uncomment sections that
+# apply to your project (e.g., Python, Node.js, etc.).
+# ===================================================================
+
+# General
+# -------------------------------------------------------------------
+# Logs and temporary files
+*.log
+logs/
+tmp/
+temp/
+
+# OS-generated files
+# -------------------------------------------------------------------
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Trashes
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.directory
+
+# IDE and Editor configurations
+# -------------------------------------------------------------------
+# Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# JetBrains (IntelliJ, PyCharm, WebStorm, etc.)
+.idea/
+*.iws
+*.iml
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Dependencies and Build artifacts
+# -------------------------------------------------------------------
+# Node.js
+node_modules/
+dist/
+build/
+npm-debug.log*
+yarn-error.log
+pnpm-lock.yaml
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+env/
+.env
+.venv
+pip-wheel-metadata/
+dist/
+build/
+*.egg-info/
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+target/
+
+# Sensitive Information - VERY IMPORTANT!
+# -------------------------------------------------------------------
+# Environment variables
+.env
+.env.*
+!.env.example
+!.env.sample
+
+# Credentials
+*.cred
+*.key
+*.pem
+
+# ===================================================================
+# Add any project-specific files you want to ignore below this line
+# For example:
+# /public/images/uploads/
+# ===================================================================
